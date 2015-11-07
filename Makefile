@@ -14,13 +14,13 @@ define Package/ffue-ebtables-net-rules
   TITLE:=ffue net-specific ebtables rules to filter unreasonable L2 traffic.
   DEPENDS:=+gluon-core +gluon-ebtables
   MAINTAINER:=Freifunk Uelzen <technik@freifunk-uelzen.de>
-  URL:=https://git.c3pb.de/freifunk-pb/ffho-packages
-  SOURCE:=git@git.c3pb.de:freifunk-pb/ffho-packages.git
+  URL:=https://github.com/FreifunkUE/ffue-ebtables-net-rules
+  SOURCE:=https://github.com/FreifunkUE/ffue-ebtables-net-rules.git
 endef
 
 define Package/ffue-ebtables-net-rules/description
 	This package adds an additional layer-2 filter-ruleset to prevent traffic,
-	which is not destined for any Freifunk Paderborn layer-3 specific target,
+	which is not destined for any Freifunk Uelzen layer-3 specific target,
 	from entering the network via the nodes.
 endef
 
